@@ -1,0 +1,783 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Shamina Consultancy</title>
+
+    <link rel="stylesheet" href="./CSS/index.css">
+    <script src="../JAVASCRIPT/main.js" type="text/javascripy"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@400;500;600&display=swap" rel="stylesheet">
+
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"/>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+
+        <!-- Libraries Stylesheet -->
+        <link href="../lib/animate/animate.min.css" rel="stylesheet">
+        <link href="../lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="../CSS/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="../CSS/style.css">
+        <link rel="stylesheet" href="./CSS/">
+        <link rel="shortcut icon" href="../IMAGES/logo.jpg">
+</head>
+<body>
+
+<!---------------------------------------------- Spinner Start --------------------------------------------------------
+<div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+        <span class="sr-only">Loading...</span>
+    </div>
+</div>
+!--------------------------------------------------- Spinner End --------------------------------------------->
+
+ <!----------------------------------------------------------- Topbar Start ---------------------------------------------------------------->
+ <div class="container-fluid bg-dark px-5 d-none d-lg-block">
+    <div class="row gx-0 align-items-center" style="height: 45px;">
+        <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+            <div class="d-flex flex-wrap">
+                <a href="#" class="text-light me-4"><i class="fa-brands fa-whatsapp text-primary me-2"></i>+01234567890</a>
+                <a href="#" class="text-light me-0"><i class="fas fa-envelope text-primary me-2"></i>shaminagroup@gmail.com</a>
+            </div>
+        </div>
+        <div class="col-lg-4 text-center text-lg-end">
+            <div class="d-flex align-items-center justify-content-end">
+                <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-facebook-f"></i></a>
+                <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-x-twitter"></i></a>
+                <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-3"><i class="fab fa-tiktok"></i></a>
+                <a href="#" class="btn btn-light btn-square border rounded-circle nav-fill me-0"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------- Topbar End -------------------------------------------------------------------------->
+
+
+<!-- Navbar & Hero Start -->
+<di class="container-fluid position-relative p-0">
+    <nav class="navbar navbar-expand-lg navbar-light bg-white px-4 px-lg-5 py-3 py-lg-0">
+        <a href="index.html" class="navbar-brand p-0">
+            <h1 class="text-primary m-0"><i class="fa-solid fa-handshake me-3"></i>Shamina Consultancy</h1>
+            <!-- <img src="../IMAGES/logo.jpg" alt="logo" width="200px"> -->
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <div class="navbar-nav ms-auto py-0">
+                <a href="index.html" class="nav-item nav-link">Home</a>
+                <a href="#" class="nav-item nav-link active">Consultancy</a>
+                <a href="about.html" class="nav-item nav-link">About</a>
+                <div class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Services</a>
+                    <div class="dropdown-menu m-0">
+                        <a href="hotel.html" class="dropdown-item">Shamina Hotel</a>
+                        <a href="farms.html" class="dropdown-item">Shamina Farms</a>
+                        <a href="consultancy.html" class="dropdown-item">Consultancy</a>
+                    </div>
+                </div>
+                <a href="contact.html" class="nav-item nav-link">Contact Us</a>
+            </div>
+            <div class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0" style="margin-right: 10px;" data-tooltip="Profile" class="icon"><i class="fa-solid fa-user"></i></div>
+            <a href="MainLogin.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0" data-tooltip="Login"><i class="fa-solid fa-right-to-bracket"></i></a>
+        </div>
+    </nav>
+
+
+    <!--------------------------------------------------------------- Carousel Start ------------------------------------------------------------------>
+    <div class="header-carousel owl-carousel">
+        <div class="header-carousel-item">
+            <img src="../IMAGES/Data & Policy analysis.jpg" class="img-fluid w-100" alt="Image">
+            <div class="carousel-caption">
+                <div class="carousel-caption-content p-3">
+                    <h5 class="text-white text-uppercase fw-bold mb-4" style="letter-spacing: 3px;">SHAMINA CONSULTANCY</h5>
+                    <h1 class="display-1 text-capitalize text-white mb-4">We help to grow your business</h1>
+                    <p class="mb-5 fs-5">Import & Export, Travel & Tour, Market pricing, Financial Auditing, Research & Implementation etc...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------------------------------------------------- Carousel End -------------------------------------------------------->
+</di>
+<!------------------------------------------------------------- Navbar & Hero End ---------------------------------------------------------->
+
+<!---------------------------------------------------------- About Start ------------------------------------------------------>
+<div class="container-fluid about bg-light py-5">
+<div class="container py-5">
+<div class="row g-5 align-items-center">
+    <div class="col-lg-5 wow fadeInLeft" data-wow-delay="0.2s">
+        <div class="about-img pb-5 ps-5">
+            <img src="../IMAGES/consultation.jpg" class="img-fluid rounded w-100" style="object-fit: cover;" alt="Image">
+            
+            <div class="about-experience">15 years experience</div>
+        </div>
+    </div>
+    <div class="col-lg-7 wow fadeInRight" data-wow-delay="0.4s">
+        <div class="section-title text-start mb-5">
+            <h4 class="sub-title pe-3 mb-0">About Us</h4>
+            <h1 class="display-3 mb-4" >Something can be written here</h1>
+            <p class="mb-4" style="text-align: justify;">Shamina Group is a conglomerate of three companies: Shamina Hotel, 
+                Shamina Farms, and Shamina Consultancy. We are a brand you can trust. 
+                Our services are tailored to meet your needs and exceed your expectations. 
+                We are committed to providing you with the best services at the most affordable prices. 
+                Shamina Group is a conglomerate of three companies: Shamina Hotel, 
+                Shamina Farms, and Shamina Consultancy. We are a brand you can trust. 
+                Our services are tailored to meet your needs and exceed your expectations. 
+                We are committed to providing you with the best services at the most affordable prices.
+                Shamina Group is a conglomerate of three companies: Shamina Hotel, 
+                Shamina Farms, and Shamina Consultancy. We are a brand you can trust. 
+                Our services are tailored to meet your needs and exceed your expectations. 
+                We are committed to providing you with the best services at the most affordable prices.
+            </p>
+            <div class="mb-4">
+                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Something needs to be written here.</p>
+                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i>Something needs to be written here</p>
+                <p class="text-secondary"><i class="fa fa-check text-primary me-2"></i> Something needs to be written here</p>
+            </div>
+            <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">Discover More</a>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+<!--------------------------------------------------- About End ------------------------------------------------>
+
+<!--------------------------------------------------- Services ------------------------------------------------>
+<div class="container-fluid service py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="sub-style">
+                <h2 class="sub-title ">Our Services</h2>
+            </div>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                        <img src="../IMAGES/Audit.jpg" class="img-fluid rounded-top w-100" alt="">
+                   </div>
+                   <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Financial Auditing</h5>
+                            <p class="mb-4">We provide financial auditing services to help you keep track of 
+                                your financial transactions and ensure that your business is in ...</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2" data-bs-toggle="modal" data-bs-target="#financialAuditingModal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                        <img src="../IMAGES/pricing.jpg" class="img-fluid rounded-top w-100" alt="">
+                    </div>
+                    <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Market Pricing</h5>
+                            <p class="mb-4">We provide market pricing services to help you determine the best price for your products and services</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                        <img src="../IMAGES/Shipping containers.jpg" class="img-fluid rounded-top w-100" alt="">
+                   </div>
+                    <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Import & Export</h5>
+                            <p class="mb-4">We provide import and export services to help you move your goods from one country to another</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2" data-bs-toggle="modal" data-bs-target="#importExportModal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                        <img src="../IMAGES/tourandtravel1.jpg" class="img-fluid rounded-top w-100" alt="">
+                    </div>
+                    <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Travel & Tour</h5>
+                            <p class="mb-4">We provide travel and tour services to help you plan your trips and vacations - anytime, anyday</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2" data-bs-toggle="modal" data-bs-target="#travelTourModal">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                        <img src="../IMAGES/research.png" class="img-fluid rounded-top w-100" alt="">
+                   </div>
+                    <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Research & Implementation</h5>
+                            <p class="mb-4">We provide research and implementation services to help you gather data and implement your business ideas</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                         <img src="../IMAGES/Data & Policy analysis.jpg" class="img-fluid rounded-top w-100" alt="">
+                    </div>
+                    <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Data & Policy Analysis</h5>
+                            <p class="mb-4">We provide data and policy analysis services to help you make informed decisions and implement policies</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                        <img src="../IMAGES/research.png" class="img-fluid rounded-top w-100" alt="">
+                   </div>
+                    <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Research & Implementation</h5>
+                            <p class="mb-4">We provide research and implementation services to help you gather data and implement your business ideas</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="service-item rounded">
+                    <div class="service-img rounded-top">
+                        <img src="../IMAGES/research.png" class="img-fluid rounded-top w-100" alt="">
+                   </div>
+                    <div class="service-content rounded-bottom bg-light p-4">
+                        <div class="service-content-inner">
+                            <h5 class="mb-4">Research & Implementation</h5>
+                            <p class="mb-4">We provide research and implementation services to help you gather data and implement your business ideas</p>
+                            <a href="#" class="btn btn-primary rounded-pill text-white py-2 px-4 mb-2">Read More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- Feature Start -->
+<div class="container-fluid feature py-5">
+    <div class="container py-5">
+        <div class="section-title mb-5 wow fadeInUp" data-wow-delay="0.1s">
+            <div class="sub-style">
+                <h4 class="sub-title px-3 mb-0">Why Choose Us</h4>
+            </div>
+            <p class="mb-0">Something needs to be written here Something needs to be written here Something needs to be written here Something needs to be written here</p>
+        </div>
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-diagnoses fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-briefcase-medical fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-hospital-user fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-users fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.1s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-spa fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.3s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-heart fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.5s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fab fa-pied-piper fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 col-xl-3 wow fadeInUp" data-wow-delay="0.7s">
+                <div class="row-cols-1 feature-item p-4">
+                    <div class="col-12">
+                        <div class="feature-icon mb-4">
+                            <div class="p-3 d-inline-flex bg-white rounded">
+                                <i class="fas fa-user-md fa-4x text-primary"></i>
+                            </div>
+                        </div>
+                        <div class="feature-content d-flex flex-column">
+                            <h5 class="mb-4">Reason</h5>
+                            <p class="mb-0">Describe briefly thw reason stated above</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                <a href="#" class="btn btn-primary rounded-pill text-white py-3 px-5">More Details</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------- Feature End -------------------------------------------->
+
+<!--------------------------------------------------------- Book consultation -------------------------------------------->
+<div class="container-fluid book-consultation bg-light py-5">
+    <div class="container py-5">
+        <div class="row g-5 align-items-center">
+            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="section-title text-start mb-5">
+                    <h4 class="sub-title pe-3 mb-0">Book a Consultation</h4>
+                    <h1 class="display-3 mb-4">Get in touch with us</h1>
+                    <p class="mb-4">We are here to help you grow your business. 
+                        Book a consultation with us today and let us help you take your business to the next level.</p>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary rounded-pill text-white py-3 px-5" data-bs-toggle="modal" data-bs-target="#appointmentModal">
+                        Book Now
+                    </button>
+                </div>
+            </div>
+            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                <div class="book-consultation-img pb-5 ps-5">
+                    <img src="../IMAGES/consultation.jpg" class="img-fluid rounded w-100" style="object-fit: cover;" alt="Image">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------------- Book consultation End -------------------------------------------->
+
+<!--------------------------------------------------Appointment Modal---------------------------------------------------------->
+<div class="modal fade" id="appointmentModal" tabindex="-1" aria-labelledby="appointmentModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="appointmentModalLabel">Book an Appointment</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form action="#" method="post">
+                    <div class="row g-3">
+                        <div class="consultancy-type-selection dropdowm-menu">
+                            <select class="form-select" id="consultancy-type" name="consultancy-type">
+                                <option value="Consultancy">Select Consultancy</option>
+                                <option value="Financial Auditing">Financial Auditing</option>
+                                <option value="Market Pricing">Market Pricing</option>
+                                <option value="Import & Export">Import & Export</option>
+                                <option value="Travel & Tour">Travel & Tour</option>
+                                <option value="Research & Implementation">Research & Implementation</option>
+                                <option value="Data & Policy Analysis">Data & Policy Analysis</option>
+                            </select>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="First Name / Company name" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="text" class="form-control" placeholder="Last Name / Leave blank if a company">
+                        </div>
+                        <div class="col-md-6">
+                            <input type="email" class="form-control" placeholder="Email" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="tel" class="form-control" placeholder="Phone" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="date" class="form-control" placeholder="Date" required>
+                        </div>
+                        <div class="col-md-6">
+                            <input type="time" class="form-control" placeholder="Time">
+                        </div>
+                        <div class="col-12">
+                            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                        </div>
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary rounded-pill text-white py-3 px-5">Book Now</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------------Appointment Modal End---------------------------------------------------------->
+
+
+
+<!--------------------------------------------------------- Footer Start ----------------------------------------------------------->
+<div class="container-fluid footer py-5 wow fadeIn" data-wow-delay="0.2s">
+    <div class="container py-5">
+        <div class="row g-5">
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="text-white mb-4"><img src="../IMAGES/logo.jpg" alt="logo" class="footer-logo">Shamina Group</h4>
+                    <p> We are a brand you can trust. 
+                        Our services are tailored to meet your needs and exceed your expectations. 
+                        We are committed to providing you with the best services at the most affordable prices.
+                    </p>
+                    <div class="d-flex align-items-center">
+                        <i class="fas fa-share fa-2x text-white me-2"></i>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-facebook-f"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-x-twitter"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-instagram"></i></a>
+                        <a class="btn-square btn btn-primary text-white rounded-circle mx-1" href=""><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Quick Links</h4>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> About Us</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Contact Us</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Privacy Policy</a>
+                    <!-- Terms & Conditions Modal Trigger -->
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#termsModal"><i class="fas fa-angle-right me-2"></i> Terms & Conditions</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Our Blog & News</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Our Team</a>
+                </div>
+            </div>
+            
+            <!-- Terms & Conditions Modal -->
+            <div class="modal fade" id="termsModal" tabindex="-1" aria-labelledby="termsModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-lg">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="termsModalLabel">Terms & Conditions</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <h4>1. Introduction</h4>
+                            <p>Welcome to [Consultancy Company Name]. These Terms and Conditions outline the rules and regulations for the use of our consultancy services.</p>
+                            
+                            <h4>2. Services Provided</h4>
+                            <p>We provide a range of consultancy services including but not limited to business consulting, market analysis, financial auditing, and strategic planning.</p>
+                            
+                            <h4>3. Confidentiality</h4>
+                            <p>All client information and data shared with us will be kept confidential and will not be disclosed to any third parties without prior consent.</p>
+                            
+                            <h4>4. Client Obligations</h4>
+                            <p>The client agrees to provide accurate and complete information to enable us to provide the best possible service. The client also agrees to cooperate with our team and adhere to agreed timelines.</p>
+                            
+                            <h4>5. Fees and Payment</h4>
+                            <p>Our fees will be outlined in the contract or agreement. Payment terms are usually net 30 days unless otherwise specified. Late payments may incure additional charges.</p>
+                            
+                            <h4>6. Liability</h4>
+                            <p>While we strive to provide the best possible service, we cannot be held liable for any indirect or consequential loss arising from the use of our services.</p>
+                            
+                            <h4>7. Termination</h4>
+                            <p>Either party may terminate the agreement with a 30-day written notice. Any outstanding payments for services rendered will still be due.</p>
+                            
+                            <h4>8. Governing Law</h4>
+                            <p>These terms and conditions shall be governed by and construed in accordance with the laws of [Country/State].</p>
+                            
+                            <h4>9. Amendments</h4>
+                            <p>We reserve the right to amend these terms and conditions at any time. Clients will be notified of any significant changes.</p>
+                            
+                            <h4>10. Contact Information</h4>
+                            <p>If you have any questions about these Terms and Conditions, please contact us at [Contact Information].</p>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Our Services</h4>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Consultancy</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Farm Produce</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Farm Machinery</a>
+                    <a href=""><i class="fas fa-angle-right me-2"></i> Hotel services</a>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-6 col-xl-3">
+                <div class="footer-item d-flex flex-column">
+                    <h4 class="mb-4 text-white">Contact Info</h4>
+                    <a href=""><i class="fa fa-map-marker-alt me-2"></i> 123 Street, New York, USA</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                    <a href=""><i class="fas fa-envelope me-2"></i> info@example.com</a>
+                    <a href=""><i class="fas fa-phone me-2"></i> +012 345 67890</a>
+                    <a href="" class="mb-3"><i class="fas fa-print me-2"></i> +012 345 67890</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!------------------------------------------------------------------ Footer End ----------------------------------------------------------->
+
+<!------------------------------------------------------------------- Back to Top ---------------------------------------------------------------------->
+<a href="#" class="btn btn-primary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>  
+
+<!--------------------------------------------------------------Modals--------------------------------------------------------------------------------------->
+
+ <!-- Financial Auditing Modal -->
+<div class="modal fade" id="financialAuditingModal" tabindex="-1" aria-labelledby="financialAuditingLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="financialAuditingLabel">Financial Auditing Services</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6>Overview</h6>
+          <p>At Shamina Consultancy, we offer comprehensive financial auditing services tailored to meet the unique needs of your business. Our team of experienced auditors ensures that your financial statements are accurate, reliable, and compliant with the latest regulations.</p>
+  
+          <h6>Our Auditing Process</h6>
+          <h6>Planning & Risk Assessment:</h6>
+          <ul>
+            <li>Understanding your business and industry.</li>
+            <li>Identifying key areas of financial risk.</li>
+            <li>Developing a tailored audit plan.</li>
+          </ul>
+  
+          <h6>Fieldwork:</h6>
+          <ul>
+            <li>Gathering and analyzing financial data.</li>
+            <li>Testing internal controls and processes.</li>
+            <li>Conducting interviews with key personnel.</li>
+          </ul>
+  
+          <h6>Reporting:</h6>
+          <ul>
+            <li>Preparing detailed audit reports.</li>
+            <li>Providing insights into financial performance and potential areas for improvement.</li>
+            <li>Offering actionable recommendations for risk mitigation.</li>
+          </ul>
+  
+          <h6>Follow-Up:</h6>
+          <ul>
+            <li>Ensuring implementation of audit recommendations.</li>
+            <li>Conducting follow-up reviews as needed.</li>
+            <li>Supporting your business in achieving financial transparency and stability.</li>
+          </ul>
+  
+          <h6>Why Choose Us?</h6>
+          <p>Expertise: Our team consists of certified auditors with extensive experience across various industries.</p>
+          <p>Accuracy: We leverage the latest auditing tools and techniques to ensure precision in our assessments.</p>
+          <p>Compliance: We stay up-to-date with the latest regulations to ensure your business remains compliant.</p>
+          <p>Confidentiality: We maintain the highest standards of confidentiality, ensuring your financial information is secure.</p>
+  
+          <h6>Industries We Serve</h6>
+          <ul>
+            <li>Healthcare</li>
+            <li>Manufacturing</li>
+            <li>Retail</li>
+            <li>Technology</li>
+            <li>Financial Services</li>
+            <li>Non-Profit Organizations</li>
+          </ul>
+  
+          <h6>Get Started</h6>
+          <p>Are you ready to enhance your financial transparency and compliance? Contact us today to schedule a consultation and learn how our financial auditing services can benefit your business.</p>
+          
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <!-- Modal for Import & Export Services -->
+<div class="modal fade" id="importExportModal" tabindex="-1" aria-labelledby="importExportLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="importExportLabel">Import & Export Services</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h4>Overview</h4>
+          <p>Navigating the complexities of international trade requires expertise and precision. We provide comprehensive import and export consultancy services to help businesses expand their reach and operate seamlessly across borders.</p>
+          <h4>Our Services</h4>
+          <h5>Import Services:</h5>
+          <ul>
+            <li><strong>Customs Compliance:</strong> Ensuring adherence to customs regulations, managing documentation and clearance procedures.</li>
+            <li><strong>Supplier Management:</strong> Identifying and vetting reliable international suppliers, negotiating favorable terms and conditions.</li>
+            <li><strong>Logistics Coordination:</strong> Coordinating transportation and warehousing solutions, managing delivery schedules and tracking shipments.</li>
+          </ul>
+          <h5>Export Services:</h5>
+          <ul>
+            <li><strong>Market Entry Strategies:</strong> Analyzing target markets, identifying growth opportunities, and developing tailored entry strategies for international markets.</li>
+            <li><strong>Regulatory Compliance:</strong> Navigating export regulations and standards, ensuring product certification and licensing requirements are met.</li>
+            <li><strong>Trade Documentation:</strong> Preparing and managing export documentation, assisting with letters of credit, bills of lading, and other essential documents.</li>
+          </ul>
+          <h5>Risk Management:</h5>
+          <ul>
+            <li><strong>Currency Risk Mitigation:</strong> Advising on foreign exchange strategies to minimize risk, implementing hedging techniques to protect against currency fluctuations.</li>
+            <li><strong>Trade Insurance:</strong> Assisting with securing insurance for shipments, advising on policies to cover risks like damage, theft, and non-payment.</li>
+          </ul>
+          <h4>Why Choose Us?</h4>
+          <p>Global Expertise, Tailored Solutions, Efficiency, Risk Management.</p>
+          <h4>Industries We Serve:</h4>
+          <p>Manufacturing, Retail & Consumer Goods, Technology, Agriculture, Automotive, Pharmaceuticals.</p>
+          <h4>Get Started</h4>
+          <p>Are you ready to expand your business globally? Contact us today to discover how our import and export services can help you achieve success in international trade.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal for Travel & Tour Services -->
+<div class="modal fade" id="travelTourModal" tabindex="-1" aria-labelledby="travelTourLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="travelTourLabel">Travel & Tour Services</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h4>Overview</h4>
+          <p>Explore the world with confidence and ease through our travel and tour services. Whether you're planning a corporate retreat, a family vacation, or an adventure tour, our expert team is here to make your travel dreams a reality.</p>
+          <h4>Our Services</h4>
+          <h5>Customized Travel Planning:</h5>
+          <ul>
+            <li><strong>Personalized Itineraries:</strong> Tailoring travel plans to match your interests and preferences, creating unique itineraries that offer a perfect balance of relaxation and adventure.</li>
+            <li><strong>Destination Consultation:</strong> Advising on the best destinations based on your travel goals, providing insights into local culture, attractions, and hidden gems.</li>
+          </ul>
+          <h5>Corporate Travel Management:</h5>
+          <ul>
+            <li><strong>Business Travel Solutions:</strong> Managing travel arrangements for corporate meetings, conferences, and events, ensuring cost-effective and efficient travel options for your team.</li>
+            <li><strong>Group Travel Coordination:</strong> Organizing group travel for corporate retreats and team-building activities, handling logistics, accommodations, and event planning.</li>
+          </ul>
+          <h5>Tour Packages:</h5>
+          <ul>
+            <li><strong>Adventure Tours:</strong> Offering curated adventure experiences such as hiking, safaris, and water sports, providing guided tours led by experienced professionals.</li>
+            <li><strong>Cultural & Heritage Tours:</strong> Exploring historical landmarks, museums, and cultural sites, immersing travelers in the rich heritage and traditions of each destination.</li>
+            <li><strong>Luxury Escapes:</strong> Arranging luxury vacations with exclusive accommodations and VIP services, creating bespoke travel experiences for the discerning traveler.</li>
+          </ul>
+          <h5>Travel Assistance:</h5>
+          <ul>
+            <li><strong>Visa and Travel Documentation:</strong> Assisting with visa applications, passport renewals, and other travel documentation, providing guidance on international travel requirements and regulations.</li>
+            <li><strong>24/7 Support:</strong> Offering round-the-clock support for any travel-related issues or emergencies, ensuring peace of mind throughout your journey.</li>
+          </ul>
+          <h4>Why Choose Us?</h4>
+          <p>Expertise, Customization, Value, Support.</p>
+          <h4>Client Testimonials</h4>
+          <p>"Thanks to Shamina Consultancy, our family vacation was nothing short of magical. Every detail was meticulously planned, and the experiences were unforgettable." — Emily Turner, Happy Traveler</p>
+          <h4>Get Started</h4>
+          <p>Ready to embark on your next adventure? Contact us today to start planning your perfect trip with Shamina Consultancy.</p>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  
+
+
+
+ <!-- JavaScript Libraries -->
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+ <script src="../lib/wow/wow.min.js"></script>
+ <script src="../lib/easing/easing.min.js"></script>
+ <script src="../lib/waypoints/waypoints.min.js"></script>
+ <script src="../lib/owlcarousel/owl.carousel.min.js"></script>
+
+ <!-- Template Javascript -->
+ <script src="../JAVASCRIPT/main.js"></script>
+
+</body>
+</html>

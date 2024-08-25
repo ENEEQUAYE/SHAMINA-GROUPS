@@ -1,0 +1,49 @@
+
+a{
+    text-decoration: none;
+}
+.topbar{
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.topbar a{
+    color: white;
+    margin: 10px;
+}
+header{
+    position: relative;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    padding: 10px;
+    z-index: 1000;
+}
+.logo img{
+    width: 150px;
+
+}
+.navbar a{
+    color: black;
+    margin: 10px;
+    justify-content: end;
+}
+.navbar a:hover{
+    color: #15ba39;
+}
+.navbar button{
+    background-color: #206ef6;
+    color: white;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+}
+.navbar-toggler{
+    display: none;
+}
