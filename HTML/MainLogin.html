@@ -85,7 +85,7 @@
                 <a href="contact.html" class="nav-item nav-link">Contact Us</a>
             </div>
             <div class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0" style="margin-right: 10px;" data-tooltip="Profile" class="icon"><i class="fa-solid fa-user"></i></div>
-            <a href="login.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0" data-tooltip="Login"><i class="fa-solid fa-right-to-bracket"></i></a>
+            <a href="MainLogin.html" class="btn btn-primary rounded-pill text-white py-2 px-4 flex-wrap flex-sm-shrink-0" data-tooltip="Login"><i class="fa-solid fa-right-to-bracket"></i></a>
         </div>
     </nav>
 </div>
@@ -118,18 +118,26 @@
                         <label for="password">Password</label>
                         <input type="password" name="password" id="password" class="form-control" required>
                     </div>
-                    <div class="form-group">
-                        <button type="submit" class="btn btn-primary" style="margin-top: 15px;">Login</button>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="remember">
+                        <label class="form-check">Remember me</label>
                     </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
                 </form>
                 <p style="margin-top: 15px;">Don't have an account? <a href="#" id="show-register">Register</a></p>
             </div>
+
+
             <!-- Register Section -->
             <div class="register-section form-section" id="register-form" style="display: none;">
                 <h2 class="text-center" style="color: aqua;">Register</h2>
-                <form action="../PHP/login.php" method="post">
+                <form action="../PHP/register.php" method="post">
                     <div class="form-group">
                         <label for="name">Name</label>
+                        <input type="text" name="name" id="name" class="form-control" required>
+                    </div>
+                    <div class="form-group" style="margin-top: 15px;">
+                        <label for="name">Username</label>
                         <input type="text" name="name" id="name" class="form-control" required>
                     </div>
                     <div class="form-group" style="margin-top: 15px;">
@@ -153,11 +161,6 @@
         </div>
     </div>
 </div>
-
-
-
-
-
 </div>
 <!-- Header End -->
 
