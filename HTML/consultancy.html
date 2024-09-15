@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home - Shamina Consultancy</title>
+    <title>Consultancy - Shamina Group</title>
 
     <link rel="stylesheet" href="./CSS/index.css">
     <script src="../JAVASCRIPT/main.js" type="text/javascripy"></script>
@@ -451,11 +451,11 @@
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="modal-body">
-                <form action="#" method="post">
+                <form action="../PHP/sendEmail.php" method="post">
                     <div class="row g-3">
                         <div class="consultancy-type-selection dropdowm-menu">
-                            <select class="form-select" id="consultancy-type" name="consultancy-type">
-                                <option value="Consultancy">Select Consultancy</option>
+                            <select class="form-select" id="consultancy-type" name="consultancy_type" required>
+                                <option value="">Select Consultancy</option>
                                 <option value="Financial Auditing">Financial Auditing</option>
                                 <option value="Market Pricing">Market Pricing</option>
                                 <option value="Import & Export">Import & Export</option>
@@ -465,37 +465,54 @@
                             </select>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="First Name / Company name" required>
+                            <input type="text" class="form-control" name="first_name" placeholder="First Name / Company name" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="text" class="form-control" placeholder="Last Name / Leave blank if a company">
+                            <input type="text" class="form-control" name="last_name" placeholder="Last Name / Leave blank if a company">
                         </div>
                         <div class="col-md-6">
-                            <input type="email" class="form-control" placeholder="Email" required>
+                            <input type="email" class="form-control" name="email" placeholder="Email" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="tel" class="form-control" placeholder="Phone" required>
+                            <input type="tel" class="form-control" name="phone" placeholder="Phone" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="date" class="form-control" placeholder="Date" required>
+                            <input type="date" class="form-control" name="date" required>
                         </div>
                         <div class="col-md-6">
-                            <input type="time" class="form-control" placeholder="Time">
+                            <input type="time" class="form-control" name="time">
                         </div>
                         <div class="col-12">
-                            <textarea class="form-control" rows="5" placeholder="Message" required></textarea>
+                            <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
                         </div>
                         <div class="col-12">
                             <button type="submit" class="btn btn-primary rounded-pill text-white py-3 px-5">Book Now</button>
                         </div>
                     </div>
-                </form>
+                </form>                
             </div>
         </div>
     </div>
 </div>
 <!--------------------------------------------------Appointment Modal End---------------------------------------------------------->
 
+<!--------------------------------------------------------- Success Modal ---------------------------------------------------------->
+<div class="modal fade" id="successModal" tabindex="-1" aria-labelledby="successModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="successModalLabel">Booking Confirmation</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          Booking confirmation email has been sent successfully.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 <!--------------------------------------------------------- Footer Start ----------------------------------------------------------->
@@ -778,6 +795,21 @@
 
  <!-- Template Javascript -->
  <script src="../JAVASCRIPT/main.js"></script>
+
+ <!-----------------------------------------------Trigger Modal ----------------------------------->
+ <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        const params = new URLSearchParams(window.location.search);
+        if (params.get('status') === 'success') {
+            // Show the success modal
+            var successModal = new bootstrap.Modal(document.getElementById('successModal'));
+            successModal.show();
+        } else if (params.get('status') === 'error') {
+            alert("There was an error sending the email.");
+        }
+    });
+</script>
+
 
 </body>
 </html>
